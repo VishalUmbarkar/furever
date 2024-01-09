@@ -1,0 +1,76 @@
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(https://cdn.pixabay.com/photo/2023/04/03/18/24/ai-generated-7897554_640.jpg);
+    background-size: cover;
+    background-position: center;
+    height: max-content;
+    width: 100%;
+    padding: 20px;
+    background-attachment: fixed;
+    box-shadow: var(--boxShadow);
+
+}
+
+footer .newsletter {
+    padding-top: 150px;
+}
+
+footer .newsletter form {
+    text-align: center;
+}
+
+footer .newsletter form h6 {
+    font-weight: 800;
+    color: #fff;
+    font-size: 45px;
+    margin-block: 10px;
+}
+
+footer .newsletter input {
+    font-weight: 800;
+}
+
+footer .newsletter .btn {
+    margin-top: -1px;
+}
+
+/* For Main Footer */
+footer .MainFooter {
+    margin-top: 100px;
+    border-block: 0.2px dashed #ccc !important;
+    padding: 20px;
+}
+
+footer .MainFooter .col-lg-4 {
+    color: #fff;
+}
+
+footer .MainFooter .col-lg-4 h6 {
+    font-weight: 800;
+    font-size: 30px;
+    margin-block: 20px;
+}
+
+footer .MainFooter .col-lg-4 ul li {
+    list-style: none;
+    font-weight: 800;
+    margin-block: 20px;
+    max-width: max-content;
+}
+
+footer .MainFooter .col-lg-4 ul li:hover {
+    color: var(--main) !important;
+    cursor: pointer;
+}
+
+footer .mainMess {
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    font-weight: 800;
+}
+
+footer .mainMess:hover span {
+    font-weight: 900;
+    color: var(--main) !important;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.Categories .box {
+    position: relative;
+    text-align: center;
+}
+
+.Categories .box:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.Categories .box img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: var(--boxShadow);
+    margin-bottom: 5px;
+}
+
+.Categories .box:hover img {
+    box-shadow: var(--boxShadowHover);
+}
+
+.Categories .box h6 {
+    font-weight: 800;
+}

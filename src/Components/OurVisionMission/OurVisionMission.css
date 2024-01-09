@@ -1,0 +1,32 @@
+.OurVisionMission {
+    margin-block: 30px;
+}
+
+.OurVisionMission h6 {
+    font-weight: 800;
+    font-size: 30px;
+    color: #000;
+    margin-block: 20px;
+    border-bottom: 0.2px dashed #000 !important;
+    max-width: max-content;
+}
+
+.OurVisionMission p {
+    font-size: 13px;
+}
+
+.OurVisionMission img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8%;
+    box-shadow: var(--boxShadowHover);
+}
+
+.OurVisionMission .row:last-child {
+    margin-block: 80px;
+}
+
+.OurVisionMission .row:last-child img {
+    margin-top: 20px;
+}

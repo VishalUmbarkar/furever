@@ -1,0 +1,132 @@
+.AdoptPet .box {
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--boxShadow);
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.AdoptPet .box .button {
+    display: flex;
+    justify-self: flex-end;
+    width: max-content;
+    background: var(--main);
+    color: #fff !important;
+    border-radius: 10px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+
+
+
+.AdoptPet .box:hover {
+    transform: scale(1.02);
+    box-shadow: var(--boxShadowHover);
+}
+
+.AdoptPet .box img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.AdoptPet .box .boxContent {
+    padding: 10px;
+}
+
+.AdoptPet .box .boxContent h6 {
+    font-weight: 800;
+}
+
+.AdoptPet .box .boxContent p {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+
+.AdoptPet .box .boxContent .btn {
+    margin-right: 5px;
+}
+
+/* For ThisMainAdoptPetError */
+.ThisMainAdoptPetError {
+    margin-block: 200px;
+    text-align: center;
+}
+
+.ThisMainAdoptPetError h6 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+/* For thisMainAdoptPet */
+.thisMainAdoptPet {
+    margin-block: 100px;
+}
+
+.thisMainAdoptPet img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: var(--boxShadowHover);
+}
+
+.thisMainAdoptPet .col-lg-6 h6 {
+    font-weight: 800;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+/* For secondRow */
+.thisMainAdoptPet .secondRow {
+    margin-top: 100px;
+}
+
+.thisMainAdoptPet .secondRow h6 {
+    font-weight: 800;
+    font-size: 30px;
+    color: #000;
+    border-bottom: 0.2px dashed #000;
+    max-width: max-content;
+}
+
+.thisMainAdoptPet .secondRow h6 span {
+    color: var(--main) !important;
+    font-weight: 900;
+}
+
+/* For mainP */
+.thisMainAdoptPet .mainP {
+    padding: 20px;
+    border-bottom: 0.2px dashed #000;
+}
+
+.thisMainAdoptPet .mainP:last-child {
+    border-bottom: none;
+}
+
+.thisMainAdoptPet .mainP .Specification_Header {
+    font-weight: 800;
+    color: #000;
+}
+
+/* For ThirdRow */
+.thisMainAdoptPet .ThirdRow {
+    margin-block: 30px;
+}
+
+.thisMainAdoptPet .ThirdRow p {
+    background: #d3c499;
+    padding: 20px;
+    color: #fff;
+    border-left: 20px solid var(--main);
+    font-weight: 800;
+}

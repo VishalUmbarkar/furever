@@ -1,0 +1,18 @@
+.OurGallery {
+    margin-block: 150px;
+}
+
+.OurGallery .box img {
+    box-shadow: var(--boxShadow);
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-block: 20px;
+    border-radius: 10px;
+}
+
+.OurGallery .box:hover img {
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: var(--boxShadowHover);
+}

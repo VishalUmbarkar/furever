@@ -1,0 +1,28 @@
+.OurProcess .box {
+    box-shadow: var(--boxShadow);
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.OurProcess .box:hover {
+    transform: scale(1.02);
+    box-shadow: var(--boxShadowHover);
+}
+
+.OurProcess .box h6 {
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.OurProcess .SecondRow p {
+    background: #c8b799;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 800;
+    border-left: 30px solid var(--main);
+}

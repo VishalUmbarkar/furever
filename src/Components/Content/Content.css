@@ -1,0 +1,26 @@
+.Content {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+.Content h6 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #000;
+}
+
+.Content a {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+@media(max-width:800px) {
+    .Content h6 {
+        font-size: 22px !important;
+    }
+
+    .Content a {
+        font-size: 16px !important;
+    }
+}

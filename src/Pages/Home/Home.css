@@ -1,0 +1,10 @@
+/* For Categories */
+.Categories {
+    margin-block: 150px;
+}
+
+/* For AdoptPet, OurBlogs */
+.AdoptPet,
+.OurBlogs {
+    margin-bottom: 100px;
+}

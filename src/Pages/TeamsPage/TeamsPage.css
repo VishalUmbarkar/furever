@@ -1,0 +1,16 @@
+.TeamsMain {
+    margin-block: 200px;
+    text-align: center;
+}
+
+.TeamsMain h6 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.TeamsMain h5 {
+    font-weight: 900;
+    font-size: 50px;
+    color: #000;
+    margin-top: 20px;
+}

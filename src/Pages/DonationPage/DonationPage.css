@@ -1,0 +1,15 @@
+.Donation {
+    margin-block: 200px;
+    text-align: center;
+}
+
+.Donation h6 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.Donation h5 {
+    font-weight: 30px;
+    font-weight: 900;
+    color: #000;
+}

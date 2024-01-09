@@ -1,0 +1,13 @@
+.btn {
+    
+    width: max-content;
+    background: var(--main);
+    color: #fff !important;
+    border-radius: 10px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background: #000 !important;
+}
